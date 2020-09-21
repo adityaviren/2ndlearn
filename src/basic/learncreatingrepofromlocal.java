@@ -27,7 +27,7 @@ public class learncreatingrepofromlocal {
 	}
 	private static void mod(int a,int b) {
 		long mod=a%b;
-		System.out.println("Modulus is "+mod)
+		System.out.println("Modulus is "+mod);
 	}
 
 }
