@@ -10,10 +10,20 @@ public class learncreatingrepofromlocal {
 		System.out.println("2nd num");
 		int b=sc.nextInt();
 		add(a,b);
+		sub(a,b);
+		mul(a,b);
 	}
 	private static void add(int a,int b) {
 		long sum=a+b;
-		System.out.println("Sum is "+sum);
+		System.out.println("Addition is "+sum);
+	}
+	private static void sub(int a,int b) {
+		long sub=a-b;
+		System.out.println("Subraction is "+sub);
+	}
+	private static void mul(int a,int b) {
+		long prod=a*b;
+		System.out.println("Multiplication is "+prod);
 	}
 
 }
