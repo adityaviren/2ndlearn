@@ -20,4 +20,8 @@ public class learncreatingrepofromlocal {
 		long sub=a-b;
 		System.out.println("Subraction is "+sub);
 	}
+	private static void mul(int a,int b) {
+		long prod =a*b;
+		System.out.println("Product is "+prod);
+	}
 }
