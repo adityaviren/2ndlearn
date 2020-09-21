@@ -13,7 +13,7 @@ public class learncreatingrepofromlocal {
 	}
 	private static void add(int a,int b) {
 		long sum=a+b;
-		System.out.println("Sum is "+sum);
+		System.out.println("Addition is "+sum);
 	}
 
 }
