@@ -11,10 +11,9 @@ public class learncreatingrepofromlocal {
 		int b=sc.nextInt();
 		add(a,b);
 		sub(a,b);
-<<<<<<< HEAD
-=======
 		mul(a,b);
->>>>>>> child1
+
+		sc.close();
 	}
 	private static void add(int a,int b) {
 		long sum=a+b;
@@ -25,16 +24,12 @@ public class learncreatingrepofromlocal {
 		System.out.println("Subraction is "+sub);
 	}
 	private static void mul(int a,int b) {
-<<<<<<< HEAD
-		long prod =a*b;
-		System.out.println("Product is "+prod);
-=======
 		long prod=a*b;
 		System.out.println("Multiplication is "+prod);
 	}
 	private static void mod(int a,int b) {
 		long mod=a%b;
 		System.out.println("Modulus is "+mod);
->>>>>>> child1
+
 	}
 }
