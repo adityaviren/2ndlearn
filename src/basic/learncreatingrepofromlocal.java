@@ -25,5 +25,9 @@ public class learncreatingrepofromlocal {
 		long prod=a*b;
 		System.out.println("Multiplication is "+prod);
 	}
+	private static void mod(int a,int b) {
+		long mod=a%b;
+		System.out.println("Modulus is "+mod)
+	}
 
 }
